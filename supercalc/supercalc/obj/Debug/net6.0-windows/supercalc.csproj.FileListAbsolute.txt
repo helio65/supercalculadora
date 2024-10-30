@@ -1,0 +1,15 @@
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\bin\Debug\net6.0-windows\supercalc.exe
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\bin\Debug\net6.0-windows\supercalc.deps.json
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\bin\Debug\net6.0-windows\supercalc.runtimeconfig.json
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\bin\Debug\net6.0-windows\supercalc.dll
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\bin\Debug\net6.0-windows\supercalc.pdb
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.csproj.AssemblyReference.cache
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.AssemblyInfoInputs.cache
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.AssemblyInfo.cs
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.csproj.CoreCompileInputs.cache
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.dll
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\refint\supercalc.dll
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.pdb
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\supercalc.genruntimeconfig.cache
+C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0-windows\ref\supercalc.dll
