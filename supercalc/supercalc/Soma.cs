@@ -8,5 +8,9 @@ namespace supercalc
 {
     internal class Soma
     {
+        public double Somar(double n1, double n2)
+        {
+            return n1 + n2;
+        }
     }
 }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0BxrHeuVY4I/EqIMini4HBx8LqhU9WphImR+6InC6NXVMiLgBTwR+xalckKX3v0jxspV58CzGi2G9ObkzmCi1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
+=======
+  "dgSpecHash": "JUhPHTZ8cY6pFlekQP0HBj1YCetD+ASS11Wa0lfeK3l7qPpmYFggByj43DDg5ghfL1Y8yB9LSMfFDtEcYNkQmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miguel.prado\\Documents\\cSharp\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
+>>>>>>> 60a056b658ea1397d9a94e1df417cf0f26ffad54
   "expectedPackageFiles": [],
   "logs": [
     {

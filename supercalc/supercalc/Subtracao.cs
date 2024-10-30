@@ -8,5 +8,9 @@ namespace supercalc
 {
     internal class Subtracao
     {
+        public double Subtrair(double n1, double n2)
+        {
+            return n1 - n2;
+        }
     }
 }
