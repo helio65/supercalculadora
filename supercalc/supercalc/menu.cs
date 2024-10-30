@@ -16,6 +16,7 @@ namespace supercalc
         public void Executor()
         {                        
             string opcao;
+            Calculadora calc = new Calculadora();
             List<string> opcoes = new List<string> { "+", "-", "*", "/", "S" };
             do
             {
@@ -46,7 +47,40 @@ namespace supercalc
                         Console.WriteLine("\nSubtraindo...");
                         break;
                     case "*":
-                        Console.WriteLine("\nMultiplicando...");
+                        Console.WriteLine("");
+                        double multiplicandor;
+                        double multiplicando;
+                        double valor;
+                        bool sucesso;
+                        Console.WriteLine("\nDigite o primeiro valor");
+                        sucesso = double.TryParse(Console.ReadLine(), out valor);
+                        if (sucesso)
+                        {
+                            multiplicando = valor;
+                        } else
+                        {
+                            while (!sucesso)
+                            {
+                                Console.WriteLine("\nDigite o primeiro valor");
+                                sucesso = double.TryParse(Console.ReadLine(), out valor);
+                            }
+                        }
+
+                        Console.WriteLine("\nDigite o segundo valor");
+                        sucesso = double.TryParse(Console.ReadLine(), out valor);
+                        if (sucesso)
+                        {
+                            multiplicandor = valor;
+                        }
+                        else
+                        {
+                            while (!sucesso)
+                            {
+                                Console.WriteLine("\nDigite o primeiro valor");
+                                sucesso = double.TryParse(Console.ReadLine(), out valor);
+                            }
+                        }
+
                         break;
                     case "/":
                         Console.WriteLine("\nDividindo...");

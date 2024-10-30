@@ -28,7 +28,7 @@ namespace supercalc
 
         public double Multiplicar(double a, double b) 
         {
-            return 0; 
+            return a * b;
         }
 
         public double Dividir(double a, double b) 
