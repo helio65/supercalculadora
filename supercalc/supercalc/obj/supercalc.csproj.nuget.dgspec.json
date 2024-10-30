@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helio.oliveira1\\OneDrive - SENAC-SC\\SuperKalc\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj": {}
+    "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helio.oliveira1\\OneDrive - SENAC-SC\\SuperKalc\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj": {
+    "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helio.oliveira1\\OneDrive - SENAC-SC\\SuperKalc\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
+        "projectUniqueName": "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
         "projectName": "supercalc",
-        "projectPath": "C:\\Users\\helio.oliveira1\\OneDrive - SENAC-SC\\SuperKalc\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
-        "packagesPath": "C:\\Users\\helio.oliveira1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helio.oliveira1\\OneDrive - SENAC-SC\\SuperKalc\\supercalculadora\\supercalc\\supercalc\\obj\\",
+        "projectPath": "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\supercalc.csproj",
+        "packagesPath": "C:\\Users\\alexandro.antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexandro.antonio\\Desktop\\supercalculadora\\supercalc\\supercalc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\helio.oliveira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexandro.antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

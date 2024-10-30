@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace supercalc
 {
-    public class Calculadora
+    internal class Subtracao
     {
-        public Calculadora()
-        {
-
-        }        
     }
 }
