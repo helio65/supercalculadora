@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace supercalc
 {
-    public class divisao
+    public class Divisao
     {
         public double Dividir(double n1, double n2)
         {
