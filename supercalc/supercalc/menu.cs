@@ -26,6 +26,8 @@ namespace supercalc
                 Console.WriteLine("(-) - Subtrair");
                 Console.WriteLine("(*) - Multiplicar");
                 Console.WriteLine("(/) - Dividir");
+                Console.WriteLine("(%) - Porcentagem");
+                Console.WriteLine("(R) - Raiz Quadrada");
                 Console.WriteLine("(S) - Sair");
                 Console.WriteLine("\nSelecione a operação desejada!.");
                 opcao = Console.ReadLine();            
