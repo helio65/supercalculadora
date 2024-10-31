@@ -16,7 +16,6 @@ namespace supercalc
         public void Executor()
         {                        
             string opcao;
-            Calculadora calc = new Calculadora();
             List<string> opcoes = new List<string> { "+", "-", "*", "/", "S" };
             do
             {
@@ -38,7 +37,7 @@ namespace supercalc
                     opcao = Console.ReadLine();
                 }
 
-                //Console.Clear();
+                Console.Clear();
 
                 switch (opcao)
                 {
