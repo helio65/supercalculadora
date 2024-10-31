@@ -15,8 +15,15 @@ namespace supercalc
 
         public void Executar()
         {                        
-            string opcao;
-            List<string> opcoes = new List<string> { "+", "-", "*", "/", "S" };
+            string Opcao;
+            List<string> Opcoes = new List<string> { "+", "-", "*", "/", "%", "R", "Q", "S" };
+            Soma ASoma = new Soma();
+            Subtracao ASubtracao = new Subtracao();
+            Multiplicacao AMultiplicacao = new Multiplicacao();
+            Divisao ADivisao = new Divisao();
+            Porcentagem APorcentagem = new Porcentagem();
+            RaizQuadrada ARaizQuadrada = new RaizQuadrada();
+            NumeroElevadoQuadrado ANumeroElevadoQuadrado = new NumeroElevadoQuadrado();
             do
             {
                 Console.WriteLine("\nSuper Calculadora");
@@ -27,35 +34,45 @@ namespace supercalc
                 Console.WriteLine("(/) - Dividir");
                 Console.WriteLine("(%) - Porcentagem");
                 Console.WriteLine("(R) - Raiz Quadrada");
+                Console.WriteLine("(Q) - Número elevado ao Quadrado");
                 Console.WriteLine("(S) - Sair");
                 Console.WriteLine("\nSelecione a operação desejada!.");
-                opcao = Console.ReadLine().ToUpper();            
+                Opcao = Console.ReadLine().ToUpper();            
 
-                while (!opcoes.Contains(opcao))
+                while (!Opcoes.Contains(Opcao))
                 {
                     Console.WriteLine("\nOpção invalida, seleciona a operação desejada!.");
-                    opcao = Console.ReadLine();
+                    Opcao = Console.ReadLine().ToUpper();
                 }
 
                 Console.Clear();
 
-                switch (opcao)
+                switch (Opcao)
                 {
                     case "+":
-                        Console.WriteLine("\nSomando...");
+                        ASoma.Somar();
                         break;
                     case "-":
-                        Console.WriteLine("\nSubtraindo...");
+                        ASubtracao.Subtrair();
                         break;
                     case "*":
-                        Console.WriteLine("\nMultiplicando...");
+                        AMultiplicacao.Multiplicar();
                         break;
                     case "/":
-                        Console.WriteLine("\nDividindo...");
+                        ADivisao.Dividir();
+                        break;
+                    case "%":
+                        APorcentagem.Calcular();
+                        break;
+                    case "R":
+                        ARaizQuadrada.Calcular();
+                        break;
+                    case "Q":
+                        ANumeroElevadoQuadrado.Calcular();
                         break;
                 }
 
-            } while (opcao != "S");
+            } while (Opcao != "S");
         }
     }
 }

@@ -6,17 +6,41 @@ using System.Threading.Tasks;
 
 namespace supercalc
 {
-    internal class Soma
+    public class Soma
     {
-        public double n1 { get; set; }
-        public double n2 { get; set; }
+        public List<double> Numero { get; set; }
+
+        public Soma() 
+        { 
+            Numero = new List<double>();
+        }
+
         public void Somar()
         {
-            Console.Write("Digite numero 01:");
-            n1 = double.Parse(Console.ReadLine());
-            Console.Write("Digite numero 02:");
-            n2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Resultado: {n1 + n2}");
+            string ValorX = "0";
+            bool Sucesso;
+            double ValorY;
+            do
+            {
+                Console.WriteLine("Digite um valor!");
+                ValorX = Console.ReadLine();
+                Sucesso = double.TryParse(Console.ReadLine(), out ValorY);
+                while(!Sucesso || ValorX != "=")
+                {
+                    Console.WriteLine("Digite um valor!");
+                    ValorX = Console.ReadLine();
+                    Sucesso = double.TryParse(Console.ReadLine(), out ValorY);
+                }
+                
+                Numero.Add(ValorY);
+                Console.WriteLine(Resultado(Numero).ToString());
+            } while (ValorX != "=");
         }
+
+        public double Resultado(List<double> Numero)
+        {
+            return Numero.Sum();
+        }
+
     }
 }
