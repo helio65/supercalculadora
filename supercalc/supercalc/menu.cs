@@ -13,7 +13,7 @@ namespace supercalc
             
         }
 
-        public void Executor()
+        public void Executar()
         {                        
             string opcao;
             List<string> opcoes = new List<string> { "+", "-", "*", "/", "S" };
@@ -29,7 +29,7 @@ namespace supercalc
                 Console.WriteLine("(R) - Raiz Quadrada");
                 Console.WriteLine("(S) - Sair");
                 Console.WriteLine("\nSelecione a operação desejada!.");
-                opcao = Console.ReadLine();            
+                opcao = Console.ReadLine().ToUpper();            
 
                 while (!opcoes.Contains(opcao))
                 {
