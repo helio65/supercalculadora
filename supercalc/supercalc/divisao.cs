@@ -8,9 +8,14 @@ namespace supercalc
 {
     public class Divisao
     {
-        public double Dividir(double n1, double n2)
+        public void Dividir()
         {
-            return n1 / n2;
+            Console.WriteLine("Digite o númerador: ");
+            double n1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o denominador: ");
+            double n2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"O resultado da divisão é {n1/n2}");
         }
     }
 }
