@@ -13,10 +13,9 @@ namespace supercalc
             
         }
 
-        public void Executor()
+        public void Executar()
         {                        
             string opcao;
-            Calculadora calc = new Calculadora();
             List<string> opcoes = new List<string> { "+", "-", "*", "/", "S" };
             do
             {
@@ -26,9 +25,11 @@ namespace supercalc
                 Console.WriteLine("(-) - Subtrair");
                 Console.WriteLine("(*) - Multiplicar");
                 Console.WriteLine("(/) - Dividir");
+                Console.WriteLine("(%) - Porcentagem");
+                Console.WriteLine("(R) - Raiz Quadrada");
                 Console.WriteLine("(S) - Sair");
                 Console.WriteLine("\nSelecione a operação desejada!.");
-                opcao = Console.ReadLine();            
+                opcao = Console.ReadLine().ToUpper();            
 
                 while (!opcoes.Contains(opcao))
                 {
@@ -36,7 +37,7 @@ namespace supercalc
                     opcao = Console.ReadLine();
                 }
 
-                //Console.Clear();
+                Console.Clear();
 
                 switch (opcao)
                 {

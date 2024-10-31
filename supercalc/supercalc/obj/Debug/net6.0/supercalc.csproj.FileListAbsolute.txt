@@ -1,5 +1,0 @@
-C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0\supercalc.csproj.AssemblyReference.cache
-C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0\supercalc.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0\supercalc.AssemblyInfoInputs.cache
-C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0\supercalc.AssemblyInfo.cs
-C:\Users\helio.oliveira1\OneDrive - SENAC-SC\SuperKalc\supercalculadora\supercalc\supercalc\obj\Debug\net6.0\supercalc.csproj.CoreCompileInputs.cache
