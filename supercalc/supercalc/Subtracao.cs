@@ -12,11 +12,30 @@ namespace supercalc
         public double n2 { get; set; }
         public void Subtrair()
         {
-            Console.Write("Digite numero 01:");
-            n1 = double.Parse(Console.ReadLine());
-            Console.Write("Digite numero 02:");
-            n2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Resultado: {n1 - n2}");
+            double Valor;
+            double Resultado;
+            bool Sucesso;
+            Console.WriteLine("\nDigite o minuendo!");
+            Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            while (!Sucesso || Valor <= 0)
+            {
+                Console.Clear();
+                Console.WriteLine("\nDigite o minuendo!");
+                Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            }
+            n1 = Valor;
+
+            Console.WriteLine("\nDigite o subtraendo!");
+            Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            while (!Sucesso || Valor <= 0)
+            {
+                Console.Clear();
+                Console.WriteLine("\nDigite o subtraendo!");
+                Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            }
+            n2 = Valor;
+
+            Console.WriteLine($"\nO resultado da subtração de {n1} de {n2} é igual a: {n1 - n2}");
         }
     }
 }

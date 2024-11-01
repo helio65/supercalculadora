@@ -8,14 +8,34 @@ namespace supercalc
 {
     public class Divisao
     {
+        public double n1 { get; set; }
+        public double n2 { get; set; }
         public void Dividir()
         {
-            Console.WriteLine("Digite o númerador: ");
-            double n1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o denominador: ");
-            double n2 = double.Parse(Console.ReadLine());
+            double Valor;
+            double Resultado;
+            bool Sucesso;
+            Console.WriteLine("\nDigite o dividendo!");
+            Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            while (!Sucesso || Valor <= 0)
+            {
+                Console.Clear();
+                Console.WriteLine("\nDigite o dividendo!");
+                Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            }
+            n1 = Valor;
 
-            Console.WriteLine($"O resultado da divisão é {n1/n2}");
+            Console.WriteLine("\nDigite o divisor!");
+            Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            while (!Sucesso || Valor <= 0)
+            {
+                Console.Clear();
+                Console.WriteLine("\nDigite o divisor!");
+                Sucesso = double.TryParse(Console.ReadLine(), out Valor);
+            }
+            n2 = Valor;
+
+            Console.WriteLine($"\nO resultado da divisão de {n1} por {n2} é igual a: {n1/n2}");
         }
     }
 }

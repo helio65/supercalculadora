@@ -8,38 +8,53 @@ namespace supercalc
 {
     public class Soma
     {
-        public List<double> Numero { get; set; }
+        public List<double> Numeros { get; set; }
 
         public Soma() 
         { 
-            Numero = new List<double>();
+            Numeros = new List<double>();
         }
 
         public void Somar()
         {
-            string ValorX = "0";
-            bool Sucesso;
-            double ValorY;
-            do
-            {
-                Console.WriteLine("Digite um valor!");
-                ValorX = Console.ReadLine();
-                Sucesso = double.TryParse(Console.ReadLine(), out ValorY);
-                while(!Sucesso || ValorX != "=")
-                {
-                    Console.WriteLine("Digite um valor!");
-                    ValorX = Console.ReadLine();
-                    Sucesso = double.TryParse(Console.ReadLine(), out ValorY);
-                }
-                
-                Numero.Add(ValorY);
-                Console.WriteLine(Resultado(Numero).ToString());
-            } while (ValorX != "=");
-        }
+            string ValorX;
+            bool Sucesso;                                 
 
-        public double Resultado(List<double> Numero)
-        {
-            return Numero.Sum();
+            while (true)
+            {
+                Console.WriteLine("Digite um valor ou ( = ) para finalizar!");
+                ValorX = Console.ReadLine();
+
+                if (ValorX == "=")
+                {
+                    break;
+                }
+
+                if (double.TryParse(ValorX, out double numero))
+                {
+                    Numeros.Add(numero);
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, digite um número válido ou '=' para sair.");
+                }
+
+                Console.Clear();
+                
+            }
+
+            double Reultado = 0;
+
+            foreach (var num in Numeros)
+            {
+                Reultado += num;
+            }
+
+            Numeros.Clear();
+
+            Console.Clear();
+
+            Console.WriteLine($"\nA soma dos números digitados é: {Reultado}");
         }
 
     }

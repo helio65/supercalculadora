@@ -24,7 +24,7 @@ namespace supercalc
                 Sucesso = double.TryParse(Console.ReadLine(), out Valor);
             }
             Quadrado = Pow(Valor, 2);
-            Console.WriteLine($"\n{Valor} elevado ao quadrado é igual a: {Quadrado}");
+            Console.WriteLine($"\nO resultado de {Valor} elevado ao quadrado é igual a: {Quadrado}");
         }
     }
 }
